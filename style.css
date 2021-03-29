@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Montserral Regular";
+    font-display: auto;
+    src: local('Montserral Regular'), url(./fonts/Montserrat-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Montserral Bold";
+    font-display: auto;
+    src: local('Montserral Regular'), url(./fonts/Montserrat-Bold.woff2);
+}
+
+@font-face {
+    font-family: "Montserral Italic";
+    font-display: auto;
+    src: local('Montserral Italic'), url(./fonts/Montserrat-Italic.woff2);
+}
+
+@font-face {
+    font-family: "Montserral Medium";
+    font-display: auto;
+    src: local('Montserral Medium'), url(./fonts/Montserrat-Medium.woff2);
+}
+
+@font-face {
+    font-family: "Montserral ExtraBold";
+    font-display: auto;
+    src: local('Montserral ExtraBold'), url(./fonts/Montserrat-ExtraBold.woff2);
+}
+
+body {
+    margin: 0 auto;
+}
