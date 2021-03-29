@@ -28,6 +28,80 @@
     src: local('Montserral ExtraBold'), url(./fonts/Montserrat-ExtraBold.woff2);
 }
 
+
 body {
     margin: 0 auto;
+    font-family: 'Montserral Medium';
+}
+
+.navbar {
+    border-bottom: 1px solid;
+    color: #fff;
+    border-color: gray;
+    position: absolute;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+}
+
+.navigation, .void-for-navigation {
+    flex: 1;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 40px;
+}
+
+.home-section .heading {
+    margin: 20px 0 50px;
+}
+.home-section {
+    background: no-repeat center url('./img/Rectangle.jpg');
+    background-size: 100% auto;
+    height: 100vh;
+}
+
+.home-section .container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.before-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.heading {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #fff;
+    text-align: center;
+}
+
+.primary-button {
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border-style: none;
+    width: 200px;
+    height: 45px;  
+    color: #fff; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
