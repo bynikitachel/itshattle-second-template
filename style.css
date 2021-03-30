@@ -50,6 +50,7 @@ body {
 .container {
     display: flex;
     width: 70%;
+    margin: 0 auto;
 }
 
 .navigation,
@@ -173,9 +174,23 @@ body {
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
-    margin-bottom: 55px;
+    margin: 12px 0 55px 0;
 }
 
 .services-section .primary-button {
     margin-bottom: 105px;
 }
+
+
+/* about-us-section */
+
+.about-us-section {
+    background: #F6F6F8;
+}
+
+.about-us-section .about-us-description-container {
+    display: flex;
+}
+
+.about-us-section .about-us-image,
+.about-us-description {}
