@@ -94,6 +94,13 @@ body {
 }
 
 .heading {
+    color: #323232;
+    font-size: 36px;
+    line-height: 53px;
+    font-weight: bold;
+}
+
+.home-section .heading {
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
@@ -134,6 +141,12 @@ body {
     text-align: center;
     margin: 110px 0 50px;
     width: 55%;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
 }
 
 .services-section .description {
@@ -189,8 +202,63 @@ body {
 }
 
 .about-us-section .about-us-description-container {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.about-us-section .about-us-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-us-section .about-us-image,
-.about-us-description {}
+.about-us-description {
+    flex: 1;
+}
+
+.about-us-section .about-us-image {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.about-us-section .about-us-description {
+    margin-right: 120px;
+}
+
+.about-us-section .description {
+    margin: 40px 0 30px 0;
+}
+
+.about-us-section .container {
+    flex-direction: column;
+}
+
+.about-us-section .projects-items-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0 70px;
+}
+
+.about-us-section .projects-item-image-count-container {
+    display: flex;
+}
+
+.about-us-section .projects-item-count {
+    font-size: 36px;
+    line-height: 53px;
+    margin-left: 20px;
+}
+
+.about-us-section .projects-item-image {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-section .projects-item-container .description {
+    margin: 0;
+}
