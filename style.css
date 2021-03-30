@@ -28,18 +28,16 @@
     src: local('Montserral ExtraBold'), url(./fonts/Montserrat-ExtraBold.woff2);
 }
 
-
 body {
     margin: 0 auto;
     font-family: 'Montserral Medium';
 }
 
 .navbar {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.5);
     color: #fff;
-    border-color: gray;
     position: absolute;
-    width: 100%;    
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -49,7 +47,8 @@ body {
     width: 70%;
 }
 
-.navigation, .void-for-navigation {
+.navigation,
+.void-for-navigation {
     flex: 1;
 }
 
@@ -62,9 +61,10 @@ body {
 .home-section .heading {
     margin: 20px 0 50px;
 }
+
 .home-section {
     background: no-repeat center url('./img/Rectangle.jpg');
-    background-size: 100% auto;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -98,8 +98,8 @@ body {
     border-radius: 30px;
     border-style: none;
     width: 200px;
-    height: 45px;  
-    color: #fff; 
+    height: 45px;
+    color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
