@@ -295,19 +295,22 @@ body {
 .all-projects-section .all-projects-item-container .description {
     margin-bottom: 30px;
 }
-
-.all-projects-section .all-projects-items-container {
+.void-for-line {
     position: absolute;
     top: 70px;
+    width: 100%;
+}
+.all-projects-section .all-projects-items-container {
+    
+    
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    border-bottom: 1px solid #000;
-    margin-bottom: 85px;
+    
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .all-projects-section .all-projects-item-container {
-    width: 350px;
+    width: 30%;
 }
 
 .all-projects-section .all-projects-items-container .heading {
@@ -326,5 +329,9 @@ body {
 
 .more {
     padding-bottom: 85px;
-    margin-bottom: 85px;
+}
+
+.all-projects-section .void-for-splitter-line {
+    /* position: absolute; */
+    margin-top: 85px;
 }
