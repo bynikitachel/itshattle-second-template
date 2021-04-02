@@ -125,8 +125,6 @@ body {
 
 /* services-section */
 
-.services-section {}
-
 .services-section .container {
     margin: 0 auto;
     flex-direction: column;
@@ -266,9 +264,8 @@ body {
 
 /* all-project-section */
 
-.all-projects-section .background-heading {
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
-    height: 490px;
+.all-projects-section {
+    background: linear-gradient(#504DC2 50%, #fff 50%);
 }
 
 .all-projects-section .container {
@@ -280,11 +277,11 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 100px 0 0;
+    margin: 100px 0 70px;
 }
 
 .all-projects-section .void-for-all-projects-items-container {
-    position: relative;
+    background: linear-gradient(#504DC2 50%, #fff 50%);
 }
 
 .all-projects-section .heading {
@@ -296,17 +293,14 @@ body {
     margin-bottom: 30px;
 }
 .void-for-line {
-    position: absolute;
     top: 70px;
     width: 100%;
 }
 .all-projects-section .all-projects-items-container {
-    
-    
     display: flex;
     justify-content: space-between;
-    
     border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 85px;
 }
 
 .all-projects-section .all-projects-item-container {
@@ -331,7 +325,15 @@ body {
     padding-bottom: 85px;
 }
 
-.all-projects-section .void-for-splitter-line {
-    /* position: absolute; */
-    margin-top: 85px;
+
+/* subscription-section */
+
+.subscription-section {
+    text-align: center;
+}
+
+@media(max-width:600px) {
+    .container-services-items {
+        flex-direction: column;
+    }
 }
